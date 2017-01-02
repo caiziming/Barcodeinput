@@ -379,6 +379,7 @@ begin
   ProgressBar1.Visible := True;
   ADOConnection2.ConnectionString := 'Provider=Microsoft.Jet.OLEDB.4.0;Password="";User ID=Admin;Data Source=' + ExtractFileDir(Application.ExeName)
     + '\Cache.dat;Jet OLEDB:Database Password="";';
+  Screen.Cursor := crHourGlass;
   try
     try
       ADOConnection2.Connected := True;
@@ -403,6 +404,7 @@ begin
       end;
       Self.Close;
     end;
+    Screen.Cursor := crDefault;
   end;
 end;
 
