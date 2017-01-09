@@ -99,7 +99,7 @@ uses
   cxClasses,
   cxGridCustomView,
   cxGrid,
-  cxDropDownEdit, cxCurrencyEdit;
+  cxDropDownEdit, cxCurrencyEdit, cxCalc;
 
 type
   TfrmMain = class(TForm)

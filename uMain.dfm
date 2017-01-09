@@ -613,17 +613,17 @@ object frmMain: TfrmMain
       object grdColumn8: TcxGridDBColumn
         Caption = #38646#21806#20215
         DataBinding.FieldName = 'Price'
-        PropertiesClassName = 'TcxCurrencyEditProperties'
+        PropertiesClassName = 'TcxCalcEditProperties'
       end
       object grdColumn9: TcxGridDBColumn
         Caption = #25209#21457#20215
         DataBinding.FieldName = 'Dprice'
-        PropertiesClassName = 'TcxCurrencyEditProperties'
+        PropertiesClassName = 'TcxCalcEditProperties'
       end
       object grdColumn10: TcxGridDBColumn
         Caption = #36827#20215
         DataBinding.FieldName = 'Cost'
-        PropertiesClassName = 'TcxCurrencyEditProperties'
+        PropertiesClassName = 'TcxCalcEditProperties'
       end
     end
     object cxGrid1Level1: TcxGridLevel
